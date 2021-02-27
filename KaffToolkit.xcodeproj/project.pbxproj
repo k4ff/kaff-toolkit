@@ -15,6 +15,9 @@
 		0966BB6125EA52EA00A2C913 /* UIView+addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB6025EA52EA00A2C913 /* UIView+addSubviews.swift */; };
 		096D1AA725EA876000615578 /* AdaptiveSizeCalculationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */; };
 		096D1AA925EA876000615578 /* KaffToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */; platformFilter = ios; };
+		09C69E5C25EAA7C900FE97DF /* MockKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E5B25EAA7C900FE97DF /* MockKView.swift */; };
+		09C69E6025EAA83F00FE97DF /* MockKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */; };
+		09C69E6825EAA94C00FE97DF /* VC-BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */; };
 		09D545A325EA4A4500FA2DDD /* KaffToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D545A125EA4A4500FA2DDD /* KaffToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		096D1AA425EA876000615578 /* KaffToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSizeCalculationTest.swift; sourceTree = "<group>"; };
 		096D1AA825EA876000615578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C69E5B25EAA7C900FE97DF /* MockKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKView.swift; sourceTree = "<group>"; };
+		09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKViewController.swift; sourceTree = "<group>"; };
+		09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC-BaseTest.swift"; sourceTree = "<group>"; };
 		09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KaffToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D545A125EA4A4500FA2DDD /* KaffToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaffToolkit.h; sourceTree = "<group>"; };
 		09D545A225EA4A4500FA2DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -118,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				09C69E5925EAA75F00FE97DF /* AdaptiveSize */,
+				09C69E5A25EAA79F00FE97DF /* VC-Base */,
 				096D1AA825EA876000615578 /* Info.plist */,
 			);
 			path = KaffToolkitTests;
@@ -129,6 +136,16 @@
 				096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */,
 			);
 			path = AdaptiveSize;
+			sourceTree = "<group>";
+		};
+		09C69E5A25EAA79F00FE97DF /* VC-Base */ = {
+			isa = PBXGroup;
+			children = (
+				09C69E5B25EAA7C900FE97DF /* MockKView.swift */,
+				09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */,
+				09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */,
+			);
+			path = "VC-Base";
 			sourceTree = "<group>";
 		};
 		09D5459425EA4A4500FA2DDD = {
@@ -269,6 +286,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09C69E5C25EAA7C900FE97DF /* MockKView.swift in Sources */,
+				09C69E6825EAA94C00FE97DF /* VC-BaseTest.swift in Sources */,
+				09C69E6025EAA83F00FE97DF /* MockKViewController.swift in Sources */,
 				096D1AA725EA876000615578 /* AdaptiveSizeCalculationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
