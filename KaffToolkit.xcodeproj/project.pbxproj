@@ -18,6 +18,7 @@
 		09C69E5C25EAA7C900FE97DF /* MockKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E5B25EAA7C900FE97DF /* MockKView.swift */; };
 		09C69E6025EAA83F00FE97DF /* MockKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */; };
 		09C69E6825EAA94C00FE97DF /* VC-BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */; };
+		09C69E7125EABFA000FE97DF /* AddSubviewsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E7025EABFA000FE97DF /* AddSubviewsTest.swift */; };
 		09D545A325EA4A4500FA2DDD /* KaffToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D545A125EA4A4500FA2DDD /* KaffToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		09C69E5B25EAA7C900FE97DF /* MockKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKView.swift; sourceTree = "<group>"; };
 		09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKViewController.swift; sourceTree = "<group>"; };
 		09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC-BaseTest.swift"; sourceTree = "<group>"; };
+		09C69E7025EABFA000FE97DF /* AddSubviewsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubviewsTest.swift; sourceTree = "<group>"; };
 		09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KaffToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D545A125EA4A4500FA2DDD /* KaffToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaffToolkit.h; sourceTree = "<group>"; };
 		09D545A225EA4A4500FA2DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				09C69E5925EAA75F00FE97DF /* AdaptiveSize */,
+				09C69E6F25EABEFF00FE97DF /* AddSubviews */,
 				09C69E5A25EAA79F00FE97DF /* VC-Base */,
 				096D1AA825EA876000615578 /* Info.plist */,
 			);
@@ -146,6 +149,14 @@
 				09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */,
 			);
 			path = "VC-Base";
+			sourceTree = "<group>";
+		};
+		09C69E6F25EABEFF00FE97DF /* AddSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				09C69E7025EABFA000FE97DF /* AddSubviewsTest.swift */,
+			);
+			path = AddSubviews;
 			sourceTree = "<group>";
 		};
 		09D5459425EA4A4500FA2DDD = {
@@ -290,6 +301,7 @@
 				09C69E6825EAA94C00FE97DF /* VC-BaseTest.swift in Sources */,
 				09C69E6025EAA83F00FE97DF /* MockKViewController.swift in Sources */,
 				096D1AA725EA876000615578 /* AdaptiveSizeCalculationTest.swift in Sources */,
+				09C69E7125EABFA000FE97DF /* AddSubviewsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
