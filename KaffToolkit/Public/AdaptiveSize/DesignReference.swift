@@ -24,4 +24,5 @@ public enum DesignReference {
 	}
 }
 
+/// Select design reference for adaptToWidth() and adaptToHeight() calculation
 public var designReference: DesignReference = .iPhone8
