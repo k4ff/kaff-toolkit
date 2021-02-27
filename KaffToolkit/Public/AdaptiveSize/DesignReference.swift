@@ -8,7 +8,10 @@
 import UIKit
 
 public enum DesignReference {
+	/// Design based on 375x667 screen size
 	case iPhone8
+	
+	/// Design based on 414x896 screen size
 	case iPhone11
 	
 	func getSize() -> CGSize {
