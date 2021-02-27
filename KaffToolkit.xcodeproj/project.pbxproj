@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0966BB4B25EA4EF100A2C913 /* KView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB4A25EA4EF100A2C913 /* KView.swift */; };
+		0966BB4E25EA4EF900A2C913 /* KViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB4D25EA4EF900A2C913 /* KViewController.swift */; };
 		09D545A325EA4A4500FA2DDD /* KaffToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D545A125EA4A4500FA2DDD /* KaffToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0966BB4A25EA4EF100A2C913 /* KView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KView.swift; sourceTree = "<group>"; };
+		0966BB4D25EA4EF900A2C913 /* KViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewController.swift; sourceTree = "<group>"; };
 		09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KaffToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D545A125EA4A4500FA2DDD /* KaffToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaffToolkit.h; sourceTree = "<group>"; };
 		09D545A225EA4A4500FA2DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +31,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0966BB4725EA4EAF00A2C913 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0966BB4825EA4EB500A2C913 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB4925EA4EDA00A2C913 /* VC-Base */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0966BB4925EA4EDA00A2C913 /* VC-Base */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB4A25EA4EF100A2C913 /* KView.swift */,
+				0966BB4D25EA4EF900A2C913 /* KViewController.swift */,
+			);
+			path = "VC-Base";
+			sourceTree = "<group>";
+		};
 		09D5459425EA4A4500FA2DDD = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +74,8 @@
 		09D545A025EA4A4500FA2DDD /* KaffToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				0966BB4725EA4EAF00A2C913 /* Private */,
+				0966BB4825EA4EB500A2C913 /* Public */,
 				09D545A125EA4A4500FA2DDD /* KaffToolkit.h */,
 				09D545A225EA4A4500FA2DDD /* Info.plist */,
 			);
@@ -94,6 +124,7 @@
 				TargetAttributes = {
 					09D5459D25EA4A4500FA2DDD = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -130,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0966BB4E25EA4EF900A2C913 /* KViewController.swift in Sources */,
+				0966BB4B25EA4EF100A2C913 /* KView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +294,7 @@
 		09D545A725EA4A4500FA2DDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -279,6 +313,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -287,6 +322,7 @@
 		09D545A825EA4A4500FA2DDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
