@@ -10,6 +10,8 @@
 		0966BB4B25EA4EF100A2C913 /* KView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB4A25EA4EF100A2C913 /* KView.swift */; };
 		0966BB4E25EA4EF900A2C913 /* KViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB4D25EA4EF900A2C913 /* KViewController.swift */; };
 		0966BB5225EA4FC200A2C913 /* Notification+KeyboardStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5125EA4FC200A2C913 /* Notification+KeyboardStuff.swift */; };
+		0966BB5825EA510600A2C913 /* DesignReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5725EA510600A2C913 /* DesignReference.swift */; };
+		0966BB5C25EA516500A2C913 /* AdaptiveSizeCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */; };
 		09D545A325EA4A4500FA2DDD /* KaffToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D545A125EA4A4500FA2DDD /* KaffToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -17,6 +19,8 @@
 		0966BB4A25EA4EF100A2C913 /* KView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KView.swift; sourceTree = "<group>"; };
 		0966BB4D25EA4EF900A2C913 /* KViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewController.swift; sourceTree = "<group>"; };
 		0966BB5125EA4FC200A2C913 /* Notification+KeyboardStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+KeyboardStuff.swift"; sourceTree = "<group>"; };
+		0966BB5725EA510600A2C913 /* DesignReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignReference.swift; sourceTree = "<group>"; };
+		0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSizeCalculation.swift; sourceTree = "<group>"; };
 		09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KaffToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D545A125EA4A4500FA2DDD /* KaffToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaffToolkit.h; sourceTree = "<group>"; };
 		09D545A225EA4A4500FA2DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +48,7 @@
 		0966BB4825EA4EB500A2C913 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				0966BB5625EA50ED00A2C913 /* AdaptiveSize */,
 				0966BB4925EA4EDA00A2C913 /* VC-Base */,
 			);
 			path = Public;
@@ -64,6 +69,15 @@
 				0966BB5125EA4FC200A2C913 /* Notification+KeyboardStuff.swift */,
 			);
 			path = CommonExtension;
+			sourceTree = "<group>";
+		};
+		0966BB5625EA50ED00A2C913 /* AdaptiveSize */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB5725EA510600A2C913 /* DesignReference.swift */,
+				0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */,
+			);
+			path = AdaptiveSize;
 			sourceTree = "<group>";
 		};
 		09D5459425EA4A4500FA2DDD = {
@@ -173,8 +187,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0966BB5225EA4FC200A2C913 /* Notification+KeyboardStuff.swift in Sources */,
+				0966BB5825EA510600A2C913 /* DesignReference.swift in Sources */,
 				0966BB4E25EA4EF900A2C913 /* KViewController.swift in Sources */,
 				0966BB4B25EA4EF100A2C913 /* KView.swift in Sources */,
+				0966BB5C25EA516500A2C913 /* AdaptiveSizeCalculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
