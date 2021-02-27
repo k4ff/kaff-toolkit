@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0966BB4B25EA4EF100A2C913 /* KView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB4A25EA4EF100A2C913 /* KView.swift */; };
+		0966BB4E25EA4EF900A2C913 /* KViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB4D25EA4EF900A2C913 /* KViewController.swift */; };
+		0966BB5225EA4FC200A2C913 /* Notification+KeyboardStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5125EA4FC200A2C913 /* Notification+KeyboardStuff.swift */; };
+		0966BB5825EA510600A2C913 /* DesignReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5725EA510600A2C913 /* DesignReference.swift */; };
+		0966BB5C25EA516500A2C913 /* AdaptiveSizeCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */; };
+		0966BB6125EA52EA00A2C913 /* UIView+addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB6025EA52EA00A2C913 /* UIView+addSubviews.swift */; };
 		09D545A325EA4A4500FA2DDD /* KaffToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D545A125EA4A4500FA2DDD /* KaffToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0966BB4A25EA4EF100A2C913 /* KView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KView.swift; sourceTree = "<group>"; };
+		0966BB4D25EA4EF900A2C913 /* KViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KViewController.swift; sourceTree = "<group>"; };
+		0966BB5125EA4FC200A2C913 /* Notification+KeyboardStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+KeyboardStuff.swift"; sourceTree = "<group>"; };
+		0966BB5725EA510600A2C913 /* DesignReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignReference.swift; sourceTree = "<group>"; };
+		0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSizeCalculation.swift; sourceTree = "<group>"; };
+		0966BB6025EA52EA00A2C913 /* UIView+addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviews.swift"; sourceTree = "<group>"; };
 		09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KaffToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D545A125EA4A4500FA2DDD /* KaffToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaffToolkit.h; sourceTree = "<group>"; };
 		09D545A225EA4A4500FA2DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -27,6 +39,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0966BB4725EA4EAF00A2C913 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB5025EA4F8000A2C913 /* CommonExtension */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		0966BB4825EA4EB500A2C913 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB5625EA50ED00A2C913 /* AdaptiveSize */,
+				0966BB5F25EA528E00A2C913 /* AddSubviews */,
+				0966BB4925EA4EDA00A2C913 /* VC-Base */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0966BB4925EA4EDA00A2C913 /* VC-Base */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB4A25EA4EF100A2C913 /* KView.swift */,
+				0966BB4D25EA4EF900A2C913 /* KViewController.swift */,
+			);
+			path = "VC-Base";
+			sourceTree = "<group>";
+		};
+		0966BB5025EA4F8000A2C913 /* CommonExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB5125EA4FC200A2C913 /* Notification+KeyboardStuff.swift */,
+			);
+			path = CommonExtension;
+			sourceTree = "<group>";
+		};
+		0966BB5625EA50ED00A2C913 /* AdaptiveSize */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB5725EA510600A2C913 /* DesignReference.swift */,
+				0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */,
+			);
+			path = AdaptiveSize;
+			sourceTree = "<group>";
+		};
+		0966BB5F25EA528E00A2C913 /* AddSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				0966BB6025EA52EA00A2C913 /* UIView+addSubviews.swift */,
+			);
+			path = AddSubviews;
+			sourceTree = "<group>";
+		};
 		09D5459425EA4A4500FA2DDD = {
 			isa = PBXGroup;
 			children = (
@@ -46,6 +110,8 @@
 		09D545A025EA4A4500FA2DDD /* KaffToolkit */ = {
 			isa = PBXGroup;
 			children = (
+				0966BB4725EA4EAF00A2C913 /* Private */,
+				0966BB4825EA4EB500A2C913 /* Public */,
 				09D545A125EA4A4500FA2DDD /* KaffToolkit.h */,
 				09D545A225EA4A4500FA2DDD /* Info.plist */,
 			);
@@ -94,6 +160,7 @@
 				TargetAttributes = {
 					09D5459D25EA4A4500FA2DDD = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -130,6 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0966BB6125EA52EA00A2C913 /* UIView+addSubviews.swift in Sources */,
+				0966BB5225EA4FC200A2C913 /* Notification+KeyboardStuff.swift in Sources */,
+				0966BB5825EA510600A2C913 /* DesignReference.swift in Sources */,
+				0966BB4E25EA4EF900A2C913 /* KViewController.swift in Sources */,
+				0966BB4B25EA4EF100A2C913 /* KView.swift in Sources */,
+				0966BB5C25EA516500A2C913 /* AdaptiveSizeCalculation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -246,7 +319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -261,6 +334,7 @@
 		09D545A725EA4A4500FA2DDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -268,22 +342,27 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KaffToolkit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kaff.KaffToolkit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		09D545A825EA4A4500FA2DDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -291,16 +370,19 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KaffToolkit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kaff.KaffToolkit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
