@@ -9,6 +9,7 @@ import UIKit
 
 open class KViewController<V: KView>: UIViewController {
 	
+	/// Tell keyboardLayoutGuide on KView's subclass to listen on keyboard appearing event. Default value is false.
 	public var automaticallyAdjustKeyboardLayoutGuide = false {
 		willSet {
 			newValue ? startObservingKeyboardNotifications() : stopObservingKeyboardNotifications()
@@ -26,6 +27,7 @@ open class KViewController<V: KView>: UIViewController {
 		]
 	}
 	
+	/// Instance to access corresponding KView's subclass that's used as main view
 	public var screenView: V {
 		return view as? V ?? V()
 	}
