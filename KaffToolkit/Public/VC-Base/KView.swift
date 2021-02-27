@@ -9,6 +9,7 @@ import UIKit
 
 open class KView: UIView {
 	
+	/// Layout guide based on keyboard
 	public let keyboardLayoutGuide = UILayoutGuide()
 	private(set) lazy var keyboardHeightConstraint = keyboardLayoutGuide.heightAnchor.constraint(equalToConstant: 0)
 	
