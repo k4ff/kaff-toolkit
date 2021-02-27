@@ -117,10 +117,18 @@
 		096D1AA525EA876000615578 /* KaffToolkitTests */ = {
 			isa = PBXGroup;
 			children = (
-				096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */,
+				09C69E5925EAA75F00FE97DF /* AdaptiveSize */,
 				096D1AA825EA876000615578 /* Info.plist */,
 			);
 			path = KaffToolkitTests;
+			sourceTree = "<group>";
+		};
+		09C69E5925EAA75F00FE97DF /* AdaptiveSize */ = {
+			isa = PBXGroup;
+			children = (
+				096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */,
+			);
+			path = AdaptiveSize;
 			sourceTree = "<group>";
 		};
 		09D5459425EA4A4500FA2DDD = {
