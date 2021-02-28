@@ -1,0 +1,10 @@
+language: objective-c
+
+osx_image: xcode12.2
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator14.2 OS=14.2 NAME='iPhone 11'
+
+script:
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project KaffToolkit.xcodeproj -scheme KaffToolkit -sdk $TEST_SDK -destination "platform=iOS Simulator,OS=$OS,name=$NAME" ONLY_ACTIVE_ARCH=YES
+
