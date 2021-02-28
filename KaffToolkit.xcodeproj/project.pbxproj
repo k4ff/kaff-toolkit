@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,8 +13,24 @@
 		0966BB5825EA510600A2C913 /* DesignReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5725EA510600A2C913 /* DesignReference.swift */; };
 		0966BB5C25EA516500A2C913 /* AdaptiveSizeCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */; };
 		0966BB6125EA52EA00A2C913 /* UIView+addSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0966BB6025EA52EA00A2C913 /* UIView+addSubviews.swift */; };
+		096D1AA725EA876000615578 /* AdaptiveSizeCalculationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */; };
+		096D1AA925EA876000615578 /* KaffToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */; platformFilter = ios; };
+		09C69E5C25EAA7C900FE97DF /* MockKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E5B25EAA7C900FE97DF /* MockKView.swift */; };
+		09C69E6025EAA83F00FE97DF /* MockKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */; };
+		09C69E6825EAA94C00FE97DF /* VC-BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */; };
+		09C69E7125EABFA000FE97DF /* AddSubviewsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C69E7025EABFA000FE97DF /* AddSubviewsTest.swift */; };
 		09D545A325EA4A4500FA2DDD /* KaffToolkit.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D545A125EA4A4500FA2DDD /* KaffToolkit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		096D1AAA25EA876000615578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09D5459525EA4A4500FA2DDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D5459D25EA4A4500FA2DDD;
+			remoteInfo = KaffToolkit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0966BB4A25EA4EF100A2C913 /* KView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KView.swift; sourceTree = "<group>"; };
@@ -23,12 +39,27 @@
 		0966BB5725EA510600A2C913 /* DesignReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignReference.swift; sourceTree = "<group>"; };
 		0966BB5B25EA516500A2C913 /* AdaptiveSizeCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSizeCalculation.swift; sourceTree = "<group>"; };
 		0966BB6025EA52EA00A2C913 /* UIView+addSubviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+addSubviews.swift"; sourceTree = "<group>"; };
+		096D1AA425EA876000615578 /* KaffToolkitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaffToolkitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveSizeCalculationTest.swift; sourceTree = "<group>"; };
+		096D1AA825EA876000615578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09C69E5B25EAA7C900FE97DF /* MockKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKView.swift; sourceTree = "<group>"; };
+		09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKViewController.swift; sourceTree = "<group>"; };
+		09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC-BaseTest.swift"; sourceTree = "<group>"; };
+		09C69E7025EABFA000FE97DF /* AddSubviewsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSubviewsTest.swift; sourceTree = "<group>"; };
 		09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KaffToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D545A125EA4A4500FA2DDD /* KaffToolkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaffToolkit.h; sourceTree = "<group>"; };
 		09D545A225EA4A4500FA2DDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		096D1AA125EA876000615578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096D1AA925EA876000615578 /* KaffToolkit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09D5459B25EA4A4500FA2DDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,10 +122,48 @@
 			path = AddSubviews;
 			sourceTree = "<group>";
 		};
+		096D1AA525EA876000615578 /* KaffToolkitTests */ = {
+			isa = PBXGroup;
+			children = (
+				09C69E5925EAA75F00FE97DF /* AdaptiveSize */,
+				09C69E6F25EABEFF00FE97DF /* AddSubviews */,
+				09C69E5A25EAA79F00FE97DF /* VC-Base */,
+				096D1AA825EA876000615578 /* Info.plist */,
+			);
+			path = KaffToolkitTests;
+			sourceTree = "<group>";
+		};
+		09C69E5925EAA75F00FE97DF /* AdaptiveSize */ = {
+			isa = PBXGroup;
+			children = (
+				096D1AA625EA876000615578 /* AdaptiveSizeCalculationTest.swift */,
+			);
+			path = AdaptiveSize;
+			sourceTree = "<group>";
+		};
+		09C69E5A25EAA79F00FE97DF /* VC-Base */ = {
+			isa = PBXGroup;
+			children = (
+				09C69E5B25EAA7C900FE97DF /* MockKView.swift */,
+				09C69E5F25EAA83F00FE97DF /* MockKViewController.swift */,
+				09C69E6725EAA94C00FE97DF /* VC-BaseTest.swift */,
+			);
+			path = "VC-Base";
+			sourceTree = "<group>";
+		};
+		09C69E6F25EABEFF00FE97DF /* AddSubviews */ = {
+			isa = PBXGroup;
+			children = (
+				09C69E7025EABFA000FE97DF /* AddSubviewsTest.swift */,
+			);
+			path = AddSubviews;
+			sourceTree = "<group>";
+		};
 		09D5459425EA4A4500FA2DDD = {
 			isa = PBXGroup;
 			children = (
 				09D545A025EA4A4500FA2DDD /* KaffToolkit */,
+				096D1AA525EA876000615578 /* KaffToolkitTests */,
 				09D5459F25EA4A4500FA2DDD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				09D5459E25EA4A4500FA2DDD /* KaffToolkit.framework */,
+				096D1AA425EA876000615578 /* KaffToolkitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +202,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		096D1AA325EA876000615578 /* KaffToolkitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096D1AAE25EA876000615578 /* Build configuration list for PBXNativeTarget "KaffToolkitTests" */;
+			buildPhases = (
+				096D1AA025EA876000615578 /* Sources */,
+				096D1AA125EA876000615578 /* Frameworks */,
+				096D1AA225EA876000615578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				096D1AAB25EA876000615578 /* PBXTargetDependency */,
+			);
+			name = KaffToolkitTests;
+			productName = KaffToolkitTests;
+			productReference = 096D1AA425EA876000615578 /* KaffToolkitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		09D5459D25EA4A4500FA2DDD /* KaffToolkit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09D545A625EA4A4500FA2DDD /* Build configuration list for PBXNativeTarget "KaffToolkit" */;
@@ -156,8 +244,12 @@
 		09D5459525EA4A4500FA2DDD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					096D1AA325EA876000615578 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					09D5459D25EA4A4500FA2DDD = {
 						CreatedOnToolsVersion = 12.4;
 						LastSwiftMigration = 1240;
@@ -178,11 +270,19 @@
 			projectRoot = "";
 			targets = (
 				09D5459D25EA4A4500FA2DDD /* KaffToolkit */,
+				096D1AA325EA876000615578 /* KaffToolkitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		096D1AA225EA876000615578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09D5459C25EA4A4500FA2DDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +293,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		096D1AA025EA876000615578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C69E5C25EAA7C900FE97DF /* MockKView.swift in Sources */,
+				09C69E6825EAA94C00FE97DF /* VC-BaseTest.swift in Sources */,
+				09C69E6025EAA83F00FE97DF /* MockKViewController.swift in Sources */,
+				096D1AA725EA876000615578 /* AdaptiveSizeCalculationTest.swift in Sources */,
+				09C69E7125EABFA000FE97DF /* AddSubviewsTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		09D5459A25EA4A4500FA2DDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -208,7 +320,52 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		096D1AAB25EA876000615578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilter = ios;
+			target = 09D5459D25EA4A4500FA2DDD /* KaffToolkit */;
+			targetProxy = 096D1AAA25EA876000615578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		096D1AAC25EA876000615578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaffToolkitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaff.KaffToolkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		096D1AAD25EA876000615578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaffToolkitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaff.KaffToolkitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		09D545A425EA4A4500FA2DDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -389,6 +546,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		096D1AAE25EA876000615578 /* Build configuration list for PBXNativeTarget "KaffToolkitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096D1AAC25EA876000615578 /* Debug */,
+				096D1AAD25EA876000615578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		09D5459825EA4A4500FA2DDD /* Build configuration list for PBXProject "KaffToolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
