@@ -26,6 +26,8 @@ class MockKViewController: KViewController<MockKView> {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		viewDidLoadIsCalled = true
+		automaticallyAdjustKeyboardLayoutGuide = false
+		automaticallyAdjustKeyboardLayoutGuide = true
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
