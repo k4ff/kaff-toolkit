@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: KaffToolkit.xcodeproj
+scheme: KaffToolkit
+output_directory: ./
+ignore:
+  - KaffToolkitTest/*
