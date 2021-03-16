@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "13.0"
 
   spec.source       = { :git => "https://github.com/k4ff/kaff-toolkit.git", :tag => "#{spec.version}" }
-  spec.source_files  = "KaffToolkit/**/*.{h,m}"
+  spec.source_files  = "KaffToolkit/**/*.{swift}"
 
 end
